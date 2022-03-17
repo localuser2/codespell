@@ -749,10 +749,6 @@ def _script_main():
 
 def main(*args):
     """Contains flow control"""
-    print("here")
-    print(args)
-    print(sys.argv[1:])
-    return 1
     options, parser = parse_options(args)
 
     if options.regex and options.write_changes:
